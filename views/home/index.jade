@@ -1,0 +1,9 @@
+extends ../layout
+
+block body
+    p Welcome to Realtime SailsJS
+    p You're user <span id="user-number"></span>.
+    p This app is a project to use Socket.io with Node.js and Sails.js framework.
+    p.row: textarea(rows="20", disabled=true)#messages-board.col-lg-8
+    p.row: input#message.col-lg-8
+    p.row: button#send.col-lg-1 Send
